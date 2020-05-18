@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=lubuntu
+Description=Lubuntu Theme
+Author=Lubuntu Artwork Team
+Copyright=(c) 2015, Lubuntu Artwork Theme
+License=CC-BY-SA
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/sddm/sddm
+Screenshot=background.jpg
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=lubuntu
+Theme-API=2.0
