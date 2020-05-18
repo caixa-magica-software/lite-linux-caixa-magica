@@ -1,4 +1,4 @@
-#  lubuntu-logo.script - boot splash plugin
+#  caixamagica-logo.script - boot splash plugin
 # 
 #  Copyright (C) 2009 Canonical Ltd.
 # 
@@ -17,6 +17,9 @@
 #  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
 #  02111-1307, USA.
 # 
+# Re-written by Adriano Campos <adrinoribeirocampos@gmail.com> based from
+#  the version of Rafael Laguna <rafaellaguna@gmail.com>
+#
 # Re-written by Rafael Laguna <rafaellaguna@gmail.com> based from
 #  original by Alberto Milone <alberto.milone@canonical.com>
 #
@@ -159,17 +162,12 @@ fun StringToInteger (str) {
 }
 
 #-----------------------------------------------------------------------------
-# Previous background colour
-# #300a24 --> 0.19, 0.04, 0.14
-# New background colour
-# #2c001e --> 0.16, 0.00, 0.12
 #
-# New Lubuntu background 
-# 0.00, 0.09, 0.17
-Window.SetBackgroundTopColor (0.00, 0.09, 0.17);     # Nice colour on top of the screen fading to
-Window.SetBackgroundBottomColor (0.00, 0.09, 0.17);  # an equally nice colour on the bottom
+# New Caixa Magica background 
+Window.SetBackgroundTopColor (0.11, 0.49, 0.75);     # Nice colour on top of the screen fading to
+Window.SetBackgroundBottomColor (0.06, 0.56, 0.82);  # an equally nice colour on the bottom
 
-logo.image = Image ("lubuntu_logo.png"); # "special://logo" is a special keyword which finds the logo image
+logo.image = Image ("caixamagica_logo.png"); # "special://logo" is a special keyword which finds the logo image
 logo.sprite = Sprite ();
 logo.sprite.SetImage (logo.image);
 logo.width = logo.image.GetWidth ();
