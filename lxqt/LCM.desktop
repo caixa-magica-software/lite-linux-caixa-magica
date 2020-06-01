@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Linux Caixa Mágica
+Comment=Linux Caixa Mágica session using LXQt
+Exec=env LXQT_DEFAULT_OPENBOX_CONFIG="/etc/xdg/xdg-LCM/openbox/lxqt-rc.xml" /usr/bin/startlxqt
+Type=Application
