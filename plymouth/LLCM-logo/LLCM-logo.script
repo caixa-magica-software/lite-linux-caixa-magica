@@ -1,4 +1,4 @@
-#  caixamagica-logo.script - boot splash plugin
+#  LLCM-logo.script - boot splash plugin
 # 
 #  Copyright (C) 2009 Canonical Ltd.
 # 
@@ -32,10 +32,10 @@ text_colour.red = 1.0;
 text_colour.green = 1.0;
 text_colour.blue = 1.0;
 
-# Tinted text #988592
-tinted_text_colour.red = 0.59;
-tinted_text_colour.green = 0.52;
-tinted_text_colour.blue = 0.57;
+# Tinted text #00384C
+tinted_text_colour.red = 0.0;
+tinted_text_colour.green = 0.21;
+tinted_text_colour.blue = 0.29;
 
 # Action Text - #ffffff - RGB 255 255 255
 action_text_colour.red = 1.0;
@@ -163,11 +163,12 @@ fun StringToInteger (str) {
 
 #-----------------------------------------------------------------------------
 #
-# New Caixa Magica background 
-Window.SetBackgroundTopColor (0.01, 0.11, 0.15);     # Nice colour on top of the screen fading to
-Window.SetBackgroundBottomColor (0.03, 0.15, 0.22);  # an equally nice colour on the bottom
+# Lite Linux Caixa Magica background 
+# R=46/255 G=173/255 B=225/255
+Window.SetBackgroundTopColor (0.18, 0.67, 0.88);     # Nice colour on top of the screen
+Window.SetBackgroundBottomColor (0.18, 0.67, 0.88);  # Nice colour on the bottom of the screen
 
-logo.image = Image ("caixamagica_logo.png"); # "special://logo" is a special keyword which finds the logo image
+logo.image = Image ("LLCM_logo.png"); # "special://logo" is a special keyword which finds the logo image
 logo.sprite = Sprite ();
 logo.sprite.SetImage (logo.image);
 logo.width = logo.image.GetWidth ();

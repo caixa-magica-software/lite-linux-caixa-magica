@@ -29,7 +29,7 @@ import SddmComponents 2.0
 Rectangle {
     id: container
     width: 1024
-    height: 768
+    height: 600
 
     property int sessionIndex: session.index
 
@@ -95,7 +95,7 @@ Rectangle {
                     anchors.top: usersContainer.bottom;
                     anchors.margins: 20
                     anchors.horizontalCenter: parent.horizontalCenter
-                    color: "white"
+                    color: "#00384C"
                     text: textConstants.promptSelectUser
                     font.pixelSize: 16
                     font.family: "Ubuntu"
@@ -171,7 +171,7 @@ Rectangle {
 			anchors.verticalCenter: parent.verticalCenter
 			text: textConstants.session
 			font.pixelSize: 14
-			color: "white"
+			color: "#00384C"
 			verticalAlignment: Text.AlignVCenter
                 }
 
@@ -192,7 +192,7 @@ Rectangle {
                     anchors.verticalCenter: parent.verticalCenter
                     text: textConstants.layout
                     font.pixelSize: 14
-                    color: "white"
+                    color: "#00384C"
                     verticalAlignment: Text.AlignVCenter
                 }
 
@@ -214,7 +214,7 @@ Rectangle {
 
             Clock {
 			id: clock
-			color: "white"
+			color: "#00384C"
 			timeFont.family: "Ubuntu"
 			timeFont.bold: true
 			timeFont.pixelSize: 28
