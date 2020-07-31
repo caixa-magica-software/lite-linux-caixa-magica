@@ -22,6 +22,9 @@
 ! file, they are used differently, and if you run this file through xrdb,
 ! you will probably mess things up.
 
+! Re-written by Adriano Campos <adrinoribeirocampos@gmail.com> based from
+!  the version of Jamie Zawinski
+
 #error Do not run app-defaults files through xrdb!
 #error That does not do what you might expect.
 #error Put this file in /usr/lib/X11/app-defaults/XScreenSaver instead.

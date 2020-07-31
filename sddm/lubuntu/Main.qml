@@ -21,6 +21,8 @@
 * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
 * OR OTHER DEALINGS IN THE SOFTWARE.
 *
+* Re-written by Adriano Campos <adrinoribeirocampos@gmail.com> based from
+*  the version of Lubuntu Artwork Team and Abdurrahman AVCI <abdurrahmanavci@gmail.com
 ***************************************************************************/
 
 import QtQuick 2.0
